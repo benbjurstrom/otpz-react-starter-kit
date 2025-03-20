@@ -1,25 +1,17 @@
-# Laravel + React Starter Kit
+<div align="center">
+    <img src="https://github.com/benbjurstrom/otpz/blob/main/art/email.png?raw=true" alt="OTPz Screenshot">
+</div>
 
-## Introduction
+# OTPz: Laravel + React Starter Kit
+This project integrates the [benbjurstrom/otpz](https://github.com/benbjurstrom/otpz) package with the official [Laravel  + React Starter Kit](https://github.com/laravel/react-starter-kit).
 
-Our React starter kit provides a robust, modern starting point for building Laravel applications with a React frontend using [Inertia](https://inertiajs.com).
+OTPz provides secure first factor one-time passwords (OTPs) for Laravel applications. Users enter their email and receive a one-time code to sign in. See the package's repo for more details.
 
-Inertia allows you to build modern, single-page React applications using classic server-side routing and controllers. This lets you enjoy the frontend power of React combined with the incredible backend productivity of Laravel and lightning-fast Vite compilation.
+## New Applications
+Create a new Laravel project using the OTPz + React starter kit with the following command:
+```bash
+laravel new --using benbjurstrom/otpz-react-starter-kit otpz-react
+```
 
-This React starter kit utilizes React 19, TypeScript, Tailwind, and the [shadcn/ui](https://ui.shadcn.com) and [radix-ui](https://www.radix-ui.com) component libraries.
-
-## Official Documentation
-
-Documentation for all Laravel starter kits can be found on the [Laravel website](https://laravel.com/docs/starter-kits).
-
-## Contributing
-
-Thank you for considering contributing to our starter kit! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## License
-
-The Laravel + React starter kit is open-sourced software licensed under the MIT license.
+## Existing Applications
+Use this repository as a reference to add OTPz to an existing Laravel project. You can see a diff of all changes made to the official Laravel + React Starter Kit here: https://github.com/laravel/react-starter-kit/compare/main...benbjurstrom:otpz-react-starter-kit:main
